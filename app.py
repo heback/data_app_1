@@ -15,3 +15,5 @@ import pandas as pd
 st.subheader('IRIS data')
 df = pd.read_csv('data/iris.csv')
 st.dataframe(df)
+
+st.image('images/streamlit.jpeg')
